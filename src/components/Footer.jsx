@@ -7,16 +7,16 @@ const Footer = () => {
   return (
     <div
       className="flex flex-col 
-    pt-[2em] pb-[2em] bg-(--color-red) text-(--color-white) text-center
+    pt-[2em] pb-[1em] bg-(--color-red) text-(--color-white) text-center
     md:flex-row md:justify-between md:items-center"
     >
       <div
         className="mb-[2em]
         md:ml-[5em] md:mt-[1em]"
       >
-        <h1 className="font-(family-name:--font-titles)  text-3xl uppercase md:text-4xl">
+        <h2 className="font-(family-name:--font-titles)  text-3xl uppercase md:text-4xl">
           strwbrry05
-        </h1>
+        </h2>
         <div className="flex justify-center mt-[1em] mb-[0.5em]">
           <a href="">
             <FiGithub
