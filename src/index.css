@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Potta+One&family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap');
+
 @import "tailwindcss";
 
 @theme {
@@ -6,6 +8,7 @@
   --font-text: "Newsreader";
   --font-headings: "Luckiest Guy";
   --font-subheadings: "Rampart One";
+  --font-barcode: "Libre Barcode 39 Text";
 
   --color-white: #fef8ecff;
   --color-light-yellow: #fede5dff;

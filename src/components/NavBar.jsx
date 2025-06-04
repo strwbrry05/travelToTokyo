@@ -16,7 +16,7 @@ const NavBar = () => {
     const handleClickOutside = (e) => {
       if (hitbox.current && !hitbox.current.contains(e.target)) {
         console.log("hit outside!");
-        setIsRotated(!isRotated);
+        setIsRotated(false);
       }
     };
     // bind event listener
@@ -34,7 +34,7 @@ const NavBar = () => {
       ref={hitbox}
       className="text-(--color-white) text-lg font-bold font-(family-name:--font-text)"
     >
-      <div className="relative z-5 p-[0.5em] shadow-(--my-shadow) md:hidden flex justify-center items-center text-center text-xl bg-(--color-red) ">
+      <div className="sticky z-5 w-full p-[0.5em] shadow-(--my-shadow) md:hidden flex justify-center items-center text-center text-xl bg-(--color-red) ">
         <IoMenu
           className={isRotated ? "nav-rotated" : "nav-not-rotated"}
           onClick={handleClick}
@@ -45,15 +45,17 @@ const NavBar = () => {
       {/* drop down menu */}
       <div
         ref={hitbox}
-        className={`relative z-4 md:hidden bg-(--color-red) p-[0.5em] shadow-(--my-shadow)   ${
+        className={`md:hidden ${
           isRotated
-            ? "translate-y-[0vh] transition transform duration-600 ease-in-out"
-            : "translate-y-[-100vh] transition duration-200 ease-in-out"
+            ? "translate-y-[0vh] transition transform duration-500 ease-in-out"
+            : "translate-y-[-100vh] transition duration-1000 ease-in-out"
         }`}
       >
         {isRotated && (
-          <ul className="p-[1em] text-center">
-            <a href="" className="block w-30 m-auto">
+          <ul
+            className={`absolute z-3 bg-(--color-red) w-full p-[1em] text-center shadow-(--my-shadow)`}
+          >
+            <a href="" className="relative w-30 m-auto">
               <li
                 className="mb-[0.75em] 
                 inline-block relative
