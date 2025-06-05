@@ -92,7 +92,7 @@ const Hero = () => {
           src={redStar}
           alt=""
           className="z-2 row-start-1 row-end-3 col-start-1 col-end-3 
-          self-center justify-self-center mr-[2.5em] mt-[2.5em] 
+          self-center justify-self-center sm:mr-[2.5em] sm:mt-[2.5em] 
           md:mr-[0] md:mt-[4em]
           
           "
@@ -101,8 +101,8 @@ const Hero = () => {
           src={yellowCircle}
           alt=""
           className="z-1 col-start-1 col-end-3 row-start-1 row-end-3 
-          
-          self-start justify-self-end mt-[2em] mr-[2em]
+          self-start justify-self-end
+          sm:self-start sm:justify-self-end sm:mt-[2em] sm:mr-[2em]
           xl:mr-[4em]"
         />
       </div>

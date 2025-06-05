@@ -1,3 +1,4 @@
+import Faq from "./components/Faq";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
@@ -10,6 +11,7 @@ function App() {
         <NavBar />
       </div>
       <Hero />
+      <Faq />
       <Footer />
     </>
   );
