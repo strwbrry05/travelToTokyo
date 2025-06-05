@@ -34,7 +34,7 @@ const NavBar = () => {
       ref={hitbox}
       className="text-(--color-white) text-lg font-bold font-(family-name:--font-text)"
     >
-      <div className="sticky z-5 w-full p-[0.5em] shadow-(--my-shadow) md:hidden flex justify-center items-center text-center text-xl bg-(--color-red) ">
+      <div className="sticky top-0 z-5 w-full p-[0.5em] shadow-(--my-shadow) md:hidden flex justify-center items-center text-center text-xl bg-(--color-red) ">
         <IoMenu
           className={isRotated ? "nav-rotated" : "nav-not-rotated"}
           onClick={handleClick}

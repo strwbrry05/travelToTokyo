@@ -6,7 +6,9 @@ import "./index.css";
 function App() {
   return (
     <>
-      <NavBar />
+      <div className="sticky top-0 w-full z-5">
+        <NavBar />
+      </div>
       <Hero />
       <Footer />
     </>
