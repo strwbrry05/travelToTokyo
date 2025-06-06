@@ -61,11 +61,17 @@ const Faq = () => {
           bg-(--color-red)"
                 onClick={() => toggleFAQ(index)}
               >
-                <p className="">{qa.question}</p>
+                <p className="md:text-[1.25rem] lg:text-[1.5rem]">
+                  {qa.question}
+                </p>
                 {qa.active ? (
-                  <p className="text-[2.5rem]">-</p>
+                  <p className="text-[2.5rem] cursor-pointer rotate-180 transition-all duration-300 ease-out">
+                    -
+                  </p>
                 ) : (
-                  <p className="text-[2.25rem]">+</p>
+                  <p className="text-[2.25rem] cursor-pointer rotate-90 transition-all duration-400 ease-in-out">
+                    +
+                  </p>
                 )}
               </div>
 
@@ -77,7 +83,7 @@ const Faq = () => {
                 : "max-h-[0px] opacity-0 overflow-hidden transform transition-all duration-300 ease-in-out"
             }`}
               >
-                <p className="font-(family-name:--font-text) text-[1rem] p-[1em] border-b-2">
+                <p className="font-(family-name:--font-text) text-[1rem] p-[1em] border-b-2 lg:text-[1.25rem]">
                   {qa.answer}
                 </p>
               </div>
