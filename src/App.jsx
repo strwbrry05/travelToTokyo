@@ -12,7 +12,9 @@ function App() {
         <NavBar />
       </div>
       <Hero />
-      <Day1 />
+      <div className="bg-(--color-white)">
+        <Day1 />
+      </div>
       <Faq />
       <Footer />
     </>
