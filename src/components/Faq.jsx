@@ -1,7 +1,31 @@
-import React, { useState } from "react";
-import { LuCirclePlus } from "react-icons/lu";
+import React, { useState, useRef, useEffect } from "react";
+import greenStar from "../assets/images/green-star.svg";
+import yellowCircle from "../assets/images/yellow-circle.svg";
 
 const Faq = () => {
+  const ref = useRef(null);
+  const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
+
+  useEffect(() => {
+    const elem = ref.current;
+    if (!elem) return;
+
+    const resizeObserver = new ResizeObserver((entries) => {
+      for (let entry of entries) {
+        setDimensions({
+          width: entry.contentRect.width,
+          height: entry.contentRect.height,
+        });
+      }
+    });
+
+    resizeObserver.observe(elem);
+
+    return () => {
+      resizeObserver.disconnect();
+    };
+  }, []);
+
   const [faq, setFaq] = useState([
     {
       question: "How to get around Tokyo? (Mode of Transport?)",
@@ -41,15 +65,25 @@ const Faq = () => {
   };
 
   return (
-    <div className="bg-(--color-white) pt-[4em] pb-[4em]">
+    <div className=" z-1 bg-(--color-white) pt-[4em] pb-[4em]">
       <div
-        className="bg-(--color-red) w-[85%] md:w-[70%] xl:w-[875px] m-auto rounded-lg 
+        className="relative bg-(--color-red) w-[85%] md:w-[70%] xl:w-[875px] m-auto rounded-lg 
       font-(family-name:--font-headings) text-(--color-white) p-[2em] pb-[7em]"
+        ref={ref}
       >
+        <img
+          src={greenStar}
+          alt=""
+          className={`z-1 absolute w-[100px] bottom-[-50px] top-[${dimensions.height}px] left-[10px] `}
+        />
+        <img
+          src={yellowCircle}
+          alt=""
+          className={`z-0 absolute w-[100px] bottom-[-18px] top-[${dimensions.height}px] left-[-25px]`}
+        />
         <h2 className="text-center text-[1.5rem] mb-[1em]">
           Frequently Asked Q's
         </h2>
-
         {faq.map((qa, index) => {
           return (
             <div
