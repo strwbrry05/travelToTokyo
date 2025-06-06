@@ -1,3 +1,4 @@
+import Day1 from "./components/Day1";
 import Faq from "./components/Faq";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
@@ -11,6 +12,7 @@ function App() {
         <NavBar />
       </div>
       <Hero />
+      <Day1 />
       <Faq />
       <Footer />
     </>
