@@ -47,8 +47,8 @@ const NavBar = () => {
         ref={hitbox}
         className={`md:hidden ${
           isRotated
-            ? "translate-y-[0vh] transition transform duration-500 ease-in-out"
-            : "translate-y-[-100vh] transition duration-1000 ease-in-out"
+            ? "translate-y-[0vh] transform transition-all duration-500 ease-in-out"
+            : "translate-y-[-100vh] transform transition-all duration-500 ease-in-out"
         }`}
       >
         {isRotated && (
