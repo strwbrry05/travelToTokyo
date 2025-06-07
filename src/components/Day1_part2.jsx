@@ -30,7 +30,7 @@ const Day1_part2 = () => {
       />
       <div
         className="row-start-1 row-end-4 col-start-2 col-end-7 self-end justify-self-center
-      bg-(--color-light-yellow) w-[170px] h-[25px]
+      bg-(--color-light-yellow) w-[170px] h-[25px] flex justify-center items-center
       
       sm:w-[200px] sm:h-[33px]"
       >
@@ -40,7 +40,7 @@ const Day1_part2 = () => {
       </div>
       <div
         className="row-start-1 row-end-3 col-start-10 col-end-13 self-start justify-self-center
-      bg-(--color-yellow) w-[100px] h-[100px]
+      bg-(--color-yellow) w-[100px] h-[100px] flex justify-center items-center
       
       sm:w-[170px] sm:h-[70px] sm:self-end"
       >
@@ -67,8 +67,8 @@ const Day1_part2 = () => {
       <img
         src={crossing}
         alt=""
-        className="row-start-6 row-end-8 col-start-2 col-end-12 self-start justify-self-center
-        object-cover w-[400px] h-[65px] mt-[1em]
+        className="row-start-6 row-end-8 col-start-1 col-end-13 self-start justify-self-center
+        object-cover w-[450px] h-[65px] mt-[1em]
         
         sm:w-[550px] sm:h-[100px] sm:mt-[0em] lg:h-[125px]"
       />

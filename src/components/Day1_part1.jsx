@@ -38,7 +38,7 @@ const Day1_part1 = () => {
       />
       <div
         className="row-start-2 row-end-4 col-start-8 col-end-13 self-start justify-self-start
-        bg-(--color-yellow) w-[160px] m-auto  
+        bg-(--color-yellow) w-[160px] m-auto flex justify-center items-center
         
         sm:w-[200px]"
       >
