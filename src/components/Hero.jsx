@@ -17,7 +17,7 @@ const Hero = () => {
       <div
         className=" col-span-full row-span-full
         flex flex-col
-        md:flex-row md:h-[80vh] md:w-[100%] "
+        md:flex-row md:h-[85vh] md:w-[100%] "
       >
         <img
           src={hero1}
@@ -107,14 +107,17 @@ const Hero = () => {
         />
       </div>
 
-      <img
-        src={seeMore}
-        alt=""
+      <a
+        href=""
         className="z-1 row-start-11 row-end-13 col-start-3 col-end-5 self-end justify-self-center
-        sm:w-[130px]
+        sm:w-[130px] lg:w-[150px]
         md:row-start-10 md:row-end-13 md:col-start-6 md:col-end-8
+
+        hover:scale-115
         "
-      />
+      >
+        <img src={seeMore} alt="" />
+      </a>
 
       <img
         src={redSpiky}
@@ -132,7 +135,9 @@ const Hero = () => {
       <a
         href=""
         className="hidden md:block 
-        z-0 md:row-start-6 md:row-end-10 md:col-start-8 md:col-end-11 lg:w-[255px]"
+        z-0 md:row-start-6 md:row-end-10 md:col-start-8 md:col-end-11 lg:w-[255px]
+        
+        animate-[wiggleRight_3s_ease-in-out_infinite] hover:scale-105"
       >
         <img src={heroLink} alt="" />
       </a>
