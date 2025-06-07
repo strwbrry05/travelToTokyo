@@ -101,7 +101,7 @@ const Day2_part1 = () => {
         src={animate}
         alt="animate store"
         className=" row-start-10 row-end-12 col-start-8 col-end-12 justify-self-end self-center
-        w-[115px] h-[115px] object-cover border-5 border-(--color-white) rounded-full shadow-[0px_4px_5px_rgba(0,0,0,0.75)]"
+        w-[115px] h-[115px] object-cover border-5 border-(--color-white) rounded-full shadow-(--pic-shadow)"
       />
     </div>
   );
