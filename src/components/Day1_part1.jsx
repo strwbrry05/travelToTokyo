@@ -14,8 +14,8 @@ const Day1_part1 = () => {
     >
       <div
         className="row-start-1 row-end-2 col-start-1 col-end-13 self-center justify-self-start
-        font-(family-name:--font-headings) font-normal text-[2.15rem] 
-        sm:bg-blue-800 md:bg-red-800 lg:bg-green-200 xl:bg-red-100"
+        font-(family-name:--font-headings) font-normal text-[2.15rem] lg:text-[2.25rem]
+        "
       >
         <h2 className="mb-[-15px]">Day 01</h2>
         <h2>Shibuya | Harajuku</h2>
