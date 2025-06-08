@@ -41,7 +41,7 @@ const Day3_part2 = () => {
         className="row-start-4 row-end-7 col-start-1 col-end-9 self-center justify-self-center
       bg-(--color-yellow) h-[240px] w-[210px]
       
-      sm:h-[235px] sm:w-[300px] sm:mt-[-2.5em]"
+      sm:h-[225px] sm:w-[300px] sm:mt-[-2.5em]"
       ></div>
       <img
         src={mochi}
