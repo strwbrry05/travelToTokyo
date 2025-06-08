@@ -16,7 +16,7 @@ const Day5_part1 = () => {
         className="row-start-1 row-end-2 col-start-1 col-end-13 self-center justify-self-start
         font-(family-name:--font-headings) font-normal 
         mb-[0.25em]
-        text-[2rem]
+        text-[2rem] sm:text-[2.15rem]
         "
       >
         <h2 className="mb-[-10px]">Day 05</h2>
@@ -24,8 +24,10 @@ const Day5_part1 = () => {
       </div>
 
       <div
-        className="row-start-2 row-end-8 col-start-7 col-end-13 self-center 
-      text-[0.9rem]"
+        className="row-start-2 row-end-8 col-start-7 col-end-13 self-center
+      text-[0.9rem]
+      
+      sm:text-[1rem] sm:col-start-6"
       >
         <p>
           Spend your last day like everyone should, shopping and eating. Visit
@@ -55,34 +57,42 @@ const Day5_part1 = () => {
         src={egg}
         alt="Egg Skewer"
         className="row-start-2 row-end-4 col-start-1 col-end-6 self-center justify-self-center
-        w-[160px]"
+        w-[160px]
+        
+        sm:w-[175px]"
       />
       <img
         src={meat}
         alt="Wagyu Skewer"
         className="row-start-4 row-end-6 col-start-1 col-end-6 self-center justify-self-center
-        w-[160px]"
+        w-[160px]
+        
+        sm:w-[175px]"
       />
       <img
         src={tsukiji}
         alt="Tsukiji Market"
         className="row-start-6 row-end-8 col-start-1 col-end-6 self-center justify-self-center
-        object-cover h-[160px] w-[160px]"
+        object-cover h-[160px] w-[160px]
+        
+        sm:w-[175px] sm:h-[175px]"
       />
       <div
         className="row-start-8 row-end-10 col-start-6 col-end-13 self-center justify-self-center
-      bg-(--color-yellow) h-[100px] w-[220px]"
+      bg-(--color-yellow) h-[100px] w-[220px] sm:h-[125px]"
       ></div>
 
       <img
         src={ginza}
         alt="Ginza Shopping Street"
         className="row-start-9 row-end-12 col-start-2 col-end-12 justify-self-center 
-        w-[400px]"
+        w-[320px]
+        
+        sm:w-[400px] sm:object-cover sm:h-[270px]"
       />
       <div
         className="row-start-10 row-end-12 col-start-1 col-end-5 self-center justify-self-center
-      bg-(--color-light-yellow) h-[50px] w-[140px]"
+      bg-(--color-light-yellow) h-[40px] w-[140px]"
       ></div>
     </div>
   );
