@@ -10,7 +10,8 @@ const Day1_part1 = () => {
   return (
     <div
       className="grid grid-cols-[repeat(12,minmax(30px,45px))] grid-rows-[repeat(11,minmax(30px,1fr))]
-      font-(family-name:--font-text) font-bold"
+      font-(family-name:--font-text) font-bold 
+      sm:bg-blue-100 lg:bg-yellow-200 xl:bg-green-100"
     >
       <div
         className="row-start-1 row-end-2 col-start-1 col-end-13 self-center justify-self-start

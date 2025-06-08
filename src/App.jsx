@@ -9,6 +9,8 @@ import Day2_part1 from "./components/Day2_part1";
 import Day2_part2 from "./components/Day2_part2";
 
 import "./index.css";
+import Day3_part1 from "./components/Day3_part1";
+import Day3_part2 from "./components/Day3_part2";
 
 function App() {
   return (
@@ -17,9 +19,10 @@ function App() {
         <NavBar />
       </div>
       <Hero />
-      <div className="bg-(--color-white)">
+      <div className="bg-(--color-white) overflow-x-hidden">
         <Day firstHalf={<Day1_part1 />} secondHalf={<Day1_part2 />} />
         <Day firstHalf={<Day2_part1 />} secondHalf={<Day2_part2 />} />
+        <Day firstHalf={<Day3_part1 />} secondHalf={<Day3_part2 />} />
       </div>
       <Faq />
       <Footer />

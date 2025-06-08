@@ -19,7 +19,7 @@ const Day2_part1 = () => {
       
       sm:text-[2.15rem] lg:text-[2.25rem]"
       >
-        <h2 className="mb-[-15px]">Day 2</h2>
+        <h2 className="mb-[-15px]">Day 02</h2>
         <h2>Asakusa | Ikebukuro</h2>
       </div>
       <img
