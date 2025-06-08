@@ -7,13 +7,14 @@ import Day1_part1 from "./components/Day1_part1";
 import Day1_part2 from "./components/Day1_part2";
 import Day2_part1 from "./components/Day2_part1";
 import Day2_part2 from "./components/Day2_part2";
-
-import "./index.css";
 import Day3_part1 from "./components/Day3_part1";
 import Day3_part2 from "./components/Day3_part2";
 import Day4_part1 from "./components/Day4_part1";
 import Day4_part2 from "./components/Day4_part2";
 import Day4_part3 from "./components/Day4_part3";
+import Day5_part1 from "./components/Day5_part1";
+import Day5_part2 from "./components/Day5_part2";
+import "./index.css";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
           thirdHalf={<Day4_part3 />}
           isThird={true}
         />
+        <Day firstHalf={<Day5_part1 />} secondHalf={<Day5_part2 />} />
       </div>
       <Faq />
       <Footer />

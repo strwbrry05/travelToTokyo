@@ -49,7 +49,7 @@ const Day4_part2 = () => {
 
         sm:w-[160px] sm:h-[160px] sm:row-start-4 sm:mt-[1em]
         
-        lg:row-start-5 lg:w-[120px] lg:h-[120px]
+        lg:row-start-5 lg:w-[100px] lg:h-[100px]
         "
       />
 
@@ -69,7 +69,7 @@ const Day4_part2 = () => {
         w-[115px] h-[115px] object-cover border-5 border-(--color-white) rounded-full shadow-(--pic-shadow)
 
         sm:w-[160px] sm:h-[160px] sm:row-start-5
-        lg:w-[120px] lg:h-[120px] lg:row-start-6
+        lg:w-[100px] lg:h-[100px] lg:row-start-6
         "
       />
       <div
