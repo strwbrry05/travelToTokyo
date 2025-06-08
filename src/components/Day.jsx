@@ -8,6 +8,7 @@ const Day = (props) => {
     >
       <div className="mx-auto">{props.firstHalf}</div>
       <div className="mx-auto">{props.secondHalf}</div>
+      {props.isThird && <div className="mx-auto">{props.thirdHalf}</div>}
     </div>
   );
 };
