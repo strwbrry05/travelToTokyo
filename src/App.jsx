@@ -25,7 +25,12 @@ function App() {
       <Hero />
       <div className="bg-(--color-white) overflow-x-hidden">
         <Day firstHalf={<Day1_part1 />} secondHalf={<Day1_part2 />} />
-        <Day firstHalf={<Day2_part1 />} secondHalf={<Day2_part2 />} />
+        <Day
+          firstHalf={<Day2_part1 />}
+          leftPercent={60}
+          secondHalf={<Day2_part1 />}
+          rightPercent={40}
+        />
         <Day firstHalf={<Day3_part1 />} secondHalf={<Day3_part2 />} />
         <Day
           firstHalf={<Day4_part1 />}

@@ -10,6 +10,7 @@ const Day3_part1 = () => {
     <div
       className="grid grid-cols-[repeat(12,minmax(30px,45px))] grid-rows-[repeat(11,minmax(30px,1fr))]
       font-(family-name:--font-text) font-bold 
+      
       "
     >
       <div
@@ -40,34 +41,38 @@ const Day3_part1 = () => {
           alt="Tokyo National Museum"
           className="object-cover w-[170px] h-[115px]
           
-          sm:w-[200px] sm:h-[130px]"
+          sm:w-[200px] sm:h-[130px]
+          xl:w-[220px] xl:h-[150px]"
         />
         <img
           src={nature}
           alt="Museum of Nature and Science"
           className="object-cover w-[170px] h-[115px]
           
-          sm:w-[200px] sm:h-[130px]"
+          sm:w-[200px] sm:h-[130px]
+          xl:w-[220px] xl:h-[150px]"
         />
       </div>
 
       <div
         className="row-start-3 row-end-5 col-start-1 col-end-13
-      flex flex-row justify-evenly items-center sm:mt-[4em]"
+      flex flex-row justify-evenly items-center sm:mt-[4em] xl:mt-[4.5em]"
       >
         <img
           src={zoo}
           alt="Ueno Zoo"
           className="object-cover w-[170px] h-[115px]
           
-          sm:w-[200px] sm:h-[130px]"
+          sm:w-[200px] sm:h-[130px]
+          xl:w-[220px] xl:h-[150px]"
         />
         <img
           src={art}
           alt="Tokyo Metropolitan Art Museum"
           className="object-cover w-[170px] h-[115px]
           
-          sm:w-[200px] sm:h-[130px]"
+          sm:w-[200px] sm:h-[130px]
+          xl:w-[220px] xl:h-[150px] "
         />
       </div>
       <div
@@ -79,7 +84,7 @@ const Day3_part1 = () => {
         className="row-start-5 row-end-10 col-start-2 col-end-9
       text-[0.9rem] 
       
-      sm:text-[1rem] sm:mt-[1.75em]"
+      sm:text-[1rem] sm:mt-[1.75em] xl:col-end-10 xl:mt-[3.5em]"
       >
         <p>
           Spend Day Three in one of two places, Museums or Amusement Parks.
@@ -103,7 +108,8 @@ const Day3_part1 = () => {
         className="row-start-9 row-end-11 col-start-2 col-end-10 self-center
       bg-(--color-yellow) flex justify-center items-center w-[225px] h-[150px] p-[1em]
       
-      sm:w-[250px] sm:h-[170px]"
+      sm:w-[250px] sm:h-[170px]
+      xl:row-start-8"
       >
         <p
           className="row-end-9 row-end-11 col-start-2 col-end-9 
@@ -123,7 +129,7 @@ const Day3_part1 = () => {
         className="row-start-9 row-end-12 col-start-6 col-end-13 self-end justify-self-center
         w-[200px]
         
-        sm:w-[240px]"
+        sm:w-[240px] xl:row-start-8 xl:self-center"
       />
     </div>
   );

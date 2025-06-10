@@ -9,6 +9,7 @@ const Day3_part2 = () => {
     <div
       className="grid grid-cols-[repeat(12,minmax(30px,45px))] grid-rows-[repeat(11,minmax(30px,1fr))]
       font-(family-name:--font-text) font-bold 
+      xl:justify-self-center
       "
     >
       <div
@@ -34,20 +35,23 @@ const Day3_part2 = () => {
         className="row-start-1 row-end-4 col-start-6 col-end-13 self-center justify-self-center
         object-cover w-[200px] h-[200px]
         
-        sm:w-[275px] sm:h-[275px]"
+        sm:w-[275px] sm:h-[275px]
+        xl:w-[290px] xl:h-[290px] xl:mt-[2em]"
       />
 
       <div
         className="row-start-4 row-end-7 col-start-1 col-end-9 self-center justify-self-center
       bg-(--color-yellow) h-[240px] w-[210px]
       
-      sm:h-[225px] sm:w-[300px] sm:mt-[-2.5em]"
+      sm:h-[225px] sm:w-[300px] sm:mt-[-2.5em]
+      xl:h-[170px]"
       ></div>
       <img
         src={mochi}
         alt="Alien Mochi"
         className="row-start-4 row-end-7 col-start-4 col-end-11 self-center justify-self-center
-        w-[220px] sm:mt-[-3.5em]"
+        w-[220px] sm:mt-[-3.5em]
+        xl:w-[250px]"
       />
 
       <div
