@@ -11,7 +11,7 @@ const Day1_part1 = () => {
     <div
       className="grid grid-cols-[repeat(12,minmax(30px,45px))] grid-rows-[repeat(11,minmax(30px,1fr))]
       font-(family-name:--font-text) font-bold 
-      sm:bg-blue-100 lg:bg-yellow-200 xl:bg-green-100"
+      "
     >
       <div
         className="row-start-1 row-end-2 col-start-1 col-end-13 self-center justify-self-start
@@ -27,7 +27,8 @@ const Day1_part1 = () => {
         className="row-start-2 row-end-5 col-start-2 col-end-13 self-center justify-self-center
           w-[375px] h-[225px] object-cover
           
-          sm:w-[420px] sm:h-[240px]"
+          sm:w-[420px] sm:h-[240px]
+          xl:w-[450px] xl:h-[260px]"
       />
       <img
         src={donqui}
@@ -68,7 +69,8 @@ const Day1_part1 = () => {
         className="row-start-6 row-end-8 col-start-1 col-end-5 justify-self-center self-center
           border-5 border-(--color-white) w-[170px] rounded-full shadow-[0px_4px_4px_rgba(0,0,0,0.75)]
           
-          sm:w-[180px]"
+          sm:w-[180px]
+          "
       />
       <div
         className="row-start-6 row-end-8 col-start-5 col-end-8 justify-self-center self-center 
@@ -90,7 +92,8 @@ const Day1_part1 = () => {
         className="row-start-6 row-end-8 col-start-9 col-end-13 justify-self-center self-center
           w-[100px]
           
-          sm:w-[145px]"
+          sm:w-[145px]
+          xl:w-[170px]"
       />
       <img
         src={shibuya109}
@@ -98,7 +101,8 @@ const Day1_part1 = () => {
         className="row-start-8 row-end-11 col-start-1 col-end-11 justify-self-start self-center
           object-cover h-[175px] w-[325px]
           
-          sm:w-[500px] sm:h-[230px]"
+          sm:w-[500px] sm:h-[230px]
+          xl:w-[550px] xl:col-end-12"
       />
       <div
         className="row-start-8 row-end-9 col-start-7 col-end-13 justify-self-end self-end

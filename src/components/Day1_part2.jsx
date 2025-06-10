@@ -10,7 +10,8 @@ const Day1_part2 = () => {
   return (
     <div
       className="grid grid-cols-[repeat(12,minmax(30px,45px))] grid-rows-[repeat(11,minmax(30px,1fr))]
-      font-(family-name:--font-text) font-bold"
+      font-(family-name:--font-text) font-bold
+      "
     >
       <img
         src={takeshita}
@@ -26,13 +27,14 @@ const Day1_part2 = () => {
         className=" row-start-2 row-end-4 col-start-1 col-end-5
         w-[120px] h-[120px] object-cover border-5 border-(--color-white) rounded-full shadow-[0px_4px_4px_rgba(0,0,0,0.75)]
         
-        sm:w-[135px] sm:h-[135px] justify-self-start"
+        sm:w-[135px] sm:h-[135px] justify-self-start
+        xl:w-[155px] xl:h-[155px]"
       />
       <div
         className="row-start-1 row-end-4 col-start-2 col-end-7 self-end justify-self-center
       bg-(--color-light-yellow) w-[170px] h-[25px] flex justify-center items-center
       
-      sm:w-[200px] sm:h-[33px]"
+      sm:w-[200px] sm:h-[33px] "
       >
         <p className="text-[0.75rem] p-[0.5em] sm:text-[0.9rem]">
           marion crepes, harajuku
@@ -52,7 +54,7 @@ const Day1_part2 = () => {
         className="row-start-4 row-end-7 col-start-2 col-end-12 self-start justify-self-center
       text-[0.85rem] mt-[1.25em]
       
-      sm:text-[1rem]"
+      sm:text-[1rem] xl:mt-[2em]"
       >
         Head down Harajuku's infamous shopping street, Takeshita st, and stop by
         Marion's Crepes for a sweet treat! Also located in Takeshita street are
@@ -79,7 +81,8 @@ const Day1_part2 = () => {
         className="row-start-7 row-end-11 col-start-2 col-end-6 self-center justify-self-end
         w-[115px] mb-[2.5em]
         
-        sm:w-[135px] lg:w-[150px]"
+        sm:w-[135px] lg:w-[150px]
+        xl:w-[155px]"
       />
       <p
         className="row-start-8 row-end-9 col-start-6 col-end-12 self-center justify-self-center
@@ -95,7 +98,7 @@ const Day1_part2 = () => {
         className="row-start-9 row-end-11 col-start-7 col-end-12 self-start justify-self-center
         w-[115px]
         
-        sm:w-[135px] lg:w-[150px]"
+        sm:w-[135px] lg:w-[150px] xl:w-[155px]"
       />
       <p
         className="row-start-9 row-end-11 col-start-1 col-end-7 text-[0.75rem] ml-[2em]
@@ -111,7 +114,8 @@ const Day1_part2 = () => {
         className="row-start-10 row-end-12 col-start-2 col-end-6 self-end justify-self-end
         w-[115px] object-cover h-[115px] mt-[0.75em]
         
-        sm:w-[135px] sm:h-[135px] sm:mt-[1.25em] lg:w-[150px] lg:h-[150px]"
+        sm:w-[135px] sm:h-[135px] sm:mt-[1.25em] lg:w-[150px] lg:h-[150px]
+        xl:w-[155px] xl:h-[155px]"
       />
       <p
         className="row-start-10 row-end-12 col-start-6 col-end-13 text-[0.75rem] mt-[3em]
