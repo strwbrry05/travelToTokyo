@@ -10,6 +10,7 @@ const Day2_part2 = () => {
   return (
     <div
       className="grid grid-cols-[repeat(12,minmax(30px,45px))] grid-rows-[repeat(11,minmax(30px,1fr))]
+      xl:grid-rows-[repeat(12,minmax(30px,1fr))]
       font-(family-name:--font-text) font-bold
       "
     >
@@ -46,7 +47,8 @@ const Day2_part2 = () => {
         className="row-start-3 row-end-5 col-start-1 col-end-5 self-center
       bg-(--color-green) h-[150px]
       
-      sm:w-[200px] lg:col-start-2 lg:w-[150px]"
+      sm:w-[200px] lg:col-start-2 lg:w-[150px]
+      xl:w-[110px] xl:h-[170px] xl:row-start-2 xl:mt-[2em]"
       ></div>
       <img
         src={conbini}
@@ -54,7 +56,8 @@ const Day2_part2 = () => {
         className="row-start-2 row-end-4 col-start-1 col-end-6 self-center
         object-cover w-[125px] h-[125px] border-5 border-(--color-white) rounded-full shadow-(--pic-shadow)
         
-        sm:w-[135px] sm:h-[135px] lg:w-[150px] lg:h-[150px] lg:justify-self-center xl:justify-self-start"
+        sm:w-[135px] sm:h-[135px] lg:w-[150px] lg:h-[150px] lg:justify-self-center xl:justify-self-start
+        xl:w-[145px] xl:h-[145px] xl:z-2"
       />
       <img
         src={daifuku}
@@ -62,7 +65,8 @@ const Day2_part2 = () => {
         className="row-start-4 row-end-6 col-start-2 col-end-6 self-start
         object-cover w-[125px] h-[125px] border-5 border-(--color-white) rounded-full shadow-(--pic-shadow)
         
-        sm:w-[140px] sm:h-[140px] lg:w-[155px] lg:h-[155px]"
+        sm:w-[140px] sm:h-[140px] lg:w-[155px] lg:h-[155px]
+        xl:w-[125px] xl:h-[125px]"
       />
       <img
         src={pokemon}
@@ -71,7 +75,9 @@ const Day2_part2 = () => {
         object-cover border-5 border-(--color-white) shadow-(--pic-shadow) rounded-sm
         w-[200px] h-[110px]
         
-        sm:w-[245px] sm:h-[135px] mt-[1.5em] xl:h-[150px]"
+        sm:w-[245px] sm:h-[135px] mt-[1.5em] 
+        xl:h-[120px] xl:w-[200px] xl:z-2
+        "
       />
       <img
         src={aquarium}
@@ -80,21 +86,24 @@ const Day2_part2 = () => {
         object-cover border-5 border-(--color-white) shadow-(--pic-shadow) rounded-sm
         w-[200px] h-[110px]
         
-        sm:w-[245px] sm:h-[135px] mt-[1.5em] xl:h-[150px]"
+        sm:w-[245px] sm:h-[135px] mt-[1.5em] 
+        xl:h-[120px] xl:w-[200px]"
       />
       <img
         src={ikebukuro}
         alt="city of ikebukuro"
         className="row-start-8 row-end-12 col-start-2 col-end-12 self-center justify-self-center
         w-[400px]
-        sm:w-[475px] lg:mt-[3em] pb-[1em]"
+        sm:w-[475px] lg:mt-[3em] pb-[1em]
+        xl:col-start-1 xl:col-end-13 xl:z-2 xl:justify-self-start"
       />
       <div
         className="row-start-8 row-end-10 col-start-8 col-end-12 self-center
       bg-(--color-light-green) text-(--color-white) text-[0.75rem] flex justify-center items-center
       w-[155px] h-[75px] p-[1em]
       
-      sm:justify-self-end sm:mr-[1em] sm:h-[110px] sm:col-end-13 sm:text-[0.9rem]"
+      sm:justify-self-end sm:mr-[1em] sm:h-[110px] sm:col-end-13 sm:text-[0.9rem]
+      xl:z-2 xl:w-[270px] xl:h-[90px]"
       >
         <p>Pokemon Center & Sunshine Aquarium, Ikebukuro</p>
       </div>

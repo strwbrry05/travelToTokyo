@@ -28,7 +28,7 @@ function App() {
         <Day
           firstHalf={<Day2_part1 />}
           leftPercent={60}
-          secondHalf={<Day2_part1 />}
+          secondHalf={<Day2_part2 />}
           rightPercent={40}
         />
         <Day firstHalf={<Day3_part1 />} secondHalf={<Day3_part2 />} />
