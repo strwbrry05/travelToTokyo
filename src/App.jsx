@@ -33,7 +33,12 @@ function App() {
           thirdHalf={<Day4_part3 />}
           isThird={true}
         />
-        <Day firstHalf={<Day5_part1 />} secondHalf={<Day5_part2 />} />
+        <Day
+          firstHalf={<Day5_part1 />}
+          leftPercent={45}
+          secondHalf={<Day5_part2 />}
+          rightPercent={55}
+        />
       </div>
       <Faq />
       <Footer />
