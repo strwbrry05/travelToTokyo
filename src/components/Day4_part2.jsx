@@ -8,7 +8,7 @@ const Day4_part2 = () => {
     <div
       className="grid grid-cols-[repeat(12,minmax(30px,45px))] grid-rows-[repeat(11,minmax(30px,1fr))]
       font-(family-name:--font-text) font-bold 
-      sm:bg-blue-100 lg:bg-yellow-200 xl:bg-green-100"
+      "
     >
       <div
         className="row-start-1 row-end-5 col-start-1 col-end-13 text-[0.85rem]
@@ -50,6 +50,7 @@ const Day4_part2 = () => {
         sm:w-[160px] sm:h-[160px] sm:row-start-4 sm:mt-[1em]
         
         lg:row-start-5 lg:w-[100px] lg:h-[100px]
+        xl:w-[130px] xl:h-[130px] xl:row-start-4 xl:self-center xl:mb-[2em]
         "
       />
 
@@ -64,12 +65,13 @@ const Day4_part2 = () => {
       />
       <img
         src={donut}
-        alt="Gyukatsu Motomura Cutlet"
+        alt="Mister Donut"
         className="row-start-6 row-end-9 col-start-4 col-end-9 self-center justify-self-end
         w-[115px] h-[115px] object-cover border-5 border-(--color-white) rounded-full shadow-(--pic-shadow)
 
         sm:w-[160px] sm:h-[160px] sm:row-start-5
         lg:w-[100px] lg:h-[100px] lg:row-start-6
+        xl:w-[120px] xl:h-[120px]
         "
       />
       <div
@@ -77,7 +79,8 @@ const Day4_part2 = () => {
       text-[0.75rem] bg-(--color-green) text-(--color-white) flex justify-center p-[1em] h-[90px]
       
       sm:items-center sm:text-[0.9rem] 
-      lg:text-[0.75rem]"
+      lg:text-[0.75rem]
+      xl:row-start-9 xl:row-end-11"
       >
         <p>Akihabara is known for selling various kinds of technology!</p>
       </div>

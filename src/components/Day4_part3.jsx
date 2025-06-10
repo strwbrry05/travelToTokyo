@@ -10,8 +10,8 @@ const Day4_part3 = () => {
       className="grid grid-cols-[repeat(12,minmax(30px,45px))] grid-rows-[repeat(10,minmax(30px,1fr))]
       sm:grid-rows-[repeat(9,minmax(30px,1fr))]
       lg:grid-rows-[repeat(10,minmax(30px,1fr))] lg:grid-cols-[repeat(10,minmax(30px,45px))]
-      font-(family-name:--font-text) font-bold 
-      sm:bg-blue-100 lg:bg-yellow-200 xl:bg-green-100"
+      font-(family-name:--font-text) font-bold  xl:mt-[-2em]
+      "
     >
       <img
         src={skytower}
@@ -20,7 +20,8 @@ const Day4_part3 = () => {
         w-[350px]
         
         sm:w-[375px]
-        lg:w-[200px] lg:col-start-2 lg:self-center lg:justify-self-center"
+        lg:w-[200px] lg:col-start-2 lg:self-center lg:justify-self-center
+        xl:w-[220px]"
       />
       <div
         className="row-start-1 row-end-3 col-start-8 col-end-13 self-center
@@ -69,6 +70,7 @@ const Day4_part3 = () => {
           
           sm:w-[200px] sm:h-[200px]
           lg:w-[120px] lg:h-[120px] mr-[1em]
+          
           "
         />
         <img
