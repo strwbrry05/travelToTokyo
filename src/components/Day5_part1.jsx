@@ -9,7 +9,7 @@ const Day5_part1 = () => {
     <div
       className="grid grid-cols-[repeat(12,minmax(30px,45px))] grid-rows-[repeat(11,minmax(30px,1fr))]
        lg:grid-cols-[repeat(11,minmax(30px,45px))] 
-       xl:grid-rows-[repeat(12,minmax(30px,1fr))] xl:grid-cols-[repeat(12,minmax(30px,45px))]
+       xl:grid-cols-[repeat(12,minmax(30px,45px))] xl:grid-rows-[repeat(10,minmax(30px,1fr))]
       font-(family-name:--font-text) font-bold 
       "
     >
@@ -19,18 +19,12 @@ const Day5_part1 = () => {
         mb-[0.25em]
         text-[2rem] sm:text-[2.15rem] xl:text-[2.5rem]
 
-        xl:row-start-11 xl:row-end-13 xl:col-start-1 xl:col-end-13 xl:self-center
-        xl:justify-self-center
+        xl:row-start-1 xl:row-end-2 xl:col-start-1 xl:col-end-13 xl:self-center
+        xl:justify-self-start xl:mb-[-0.05em]
         "
       >
-        {window.innerWidth == 1280 ? (
-          <h2>Day 05: Tsukiji | Ginza</h2>
-        ) : (
-          <>
-            <h2 className="mb-[-10px]">Day 05</h2>
-            <h2>Tsukiji | Ginza</h2>
-          </>
-        )}
+        <h2 className="mb-[-10px]">Day 05</h2>
+        <h2>Tsukiji | Ginza</h2>
       </div>
 
       <div
@@ -38,7 +32,7 @@ const Day5_part1 = () => {
       text-[0.9rem]
       
       sm:text-[1rem] sm:col-start-6
-      xl:col-end-12 xl:row-start-1 xl:p-[1em] xl:row-end-7 xl:col-start-5"
+      xl:col-end-12 xl:p-[1em] xl:col-start-5"
       >
         <p>
           Spend your last day like everyone should, shopping and eating. Visit
@@ -71,7 +65,7 @@ const Day5_part1 = () => {
         w-[160px]
         
         sm:w-[175px]
-        xl:col-end-5 xl:row-start-1 xl:row-end-3 xl:w-[125px]
+        xl:col-end-5  xl:w-[125px]
         "
       />
       <img
@@ -81,7 +75,7 @@ const Day5_part1 = () => {
         w-[160px]
         
         sm:w-[175px]
-        xl:col-end-5 xl:row-start-3 xl:row-end-5 xl:w-[125px]"
+        xl:col-end-5 xl:w-[125px]"
       />
       <img
         src={tsukiji}
@@ -90,12 +84,12 @@ const Day5_part1 = () => {
         object-cover h-[160px] w-[160px]
         
         sm:w-[175px] sm:h-[175px]
-        xl:col-end-5 xl:row-start-5 xl:row-end-7 xl:w-[125px] xl:h-[125px]"
+        xl:col-end-5  xl:w-[125px] xl:h-[125px]"
       />
       <div
         className="row-start-8 row-end-10 col-start-6 col-end-13 self-center justify-self-center
       bg-(--color-yellow) h-[100px] w-[220px] sm:h-[125px]
-      xl:row-start-7 xl:self-start xl:mt-[3em]
+       xl:mt-[0em] xl:self-start
       "
       ></div>
 
@@ -106,11 +100,14 @@ const Day5_part1 = () => {
         w-[320px]
         
         sm:w-[400px] sm:object-cover sm:h-[270px]
-        xl:row-start-8 xl:row-end-11"
+        xl:row-start-8 xl:row-end-11 xl:self-center
+         "
       />
       <div
         className="row-start-10 row-end-12 col-start-1 col-end-5 self-center justify-self-center
-      bg-(--color-light-yellow) h-[40px] w-[140px]"
+      bg-(--color-light-yellow) h-[40px] w-[140px]
+      
+      xl:row-start-9"
       ></div>
     </div>
   );
