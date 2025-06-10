@@ -44,7 +44,7 @@ const Day3_part2 = () => {
       bg-(--color-yellow) h-[240px] w-[210px]
       
       sm:h-[225px] sm:w-[300px] sm:mt-[-2.5em]
-      xl:h-[170px]"
+      xl:h-[120px]"
       ></div>
       <img
         src={mochi}
