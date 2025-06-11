@@ -99,11 +99,17 @@ const Faq = () => {
                   {qa.question}
                 </p>
                 {qa.active ? (
-                  <p className="text-[2.5rem] cursor-pointer rotate-180 transition-all duration-300 ease-out">
+                  <p
+                    className="text-[2.5rem] cursor-pointer rotate-180 transition-all duration-300 ease-out
+                  hover:scale-[1.4]"
+                  >
                     -
                   </p>
                 ) : (
-                  <p className="text-[2.25rem] cursor-pointer rotate-90 transition-all duration-400 ease-in-out">
+                  <p
+                    className="text-[2.25rem] cursor-pointer rotate-90 transition-all duration-400 ease-in-out
+                  hover:scale-[1.4]"
+                  >
                     +
                   </p>
                 )}
