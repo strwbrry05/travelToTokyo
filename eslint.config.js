@@ -28,6 +28,8 @@ export default [
         'warn',
         { allowConstantExport: true },
       ],
+      "node":true,
+      "include": ['src', 'vite-env.d.ts']
     },
   },
 ]

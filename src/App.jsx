@@ -15,6 +15,7 @@ import Day4_part3 from "./components/Day4_part3";
 import Day5_part1 from "./components/Day5_part1";
 import Day5_part2 from "./components/Day5_part2";
 import "./index.css";
+import GoogleMap from "./components/GoogleMap";
 
 function App() {
   return (
@@ -45,6 +46,7 @@ function App() {
           rightPercent={55}
         />
       </div>
+      <GoogleMap />
       <Faq />
       <Footer />
     </>
