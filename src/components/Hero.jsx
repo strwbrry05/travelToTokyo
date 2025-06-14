@@ -23,11 +23,13 @@ const Hero = () => {
           src={hero1}
           alt="tokyo background"
           className="md:w-[60%] object-cover brightness-50"
+          loading="lazy"
         />
         <img
           src={hero2}
           alt="shibuya background"
           className="md:w-[40%] object-cover brightness-50 "
+          loading="lazy"
         />
       </div>
       <h2
@@ -91,6 +93,7 @@ const Hero = () => {
         <img
           src={redStar}
           alt=""
+          loading="lazy"
           className="z-2 row-start-1 row-end-3 col-start-1 col-end-3 
           self-center justify-self-center sm:mr-[2.5em] sm:mt-[2.5em] 
           md:mr-[0] md:mt-[4em]
@@ -100,6 +103,7 @@ const Hero = () => {
         <img
           src={yellowCircle}
           alt=""
+          loading="lazy"
           className="z-1 col-start-1 col-end-3 row-start-1 row-end-3 
           self-start justify-self-end
           sm:self-start sm:justify-self-end sm:mt-[2em] sm:mr-[2em]
@@ -116,18 +120,20 @@ const Hero = () => {
         hover:scale-115
         "
       >
-        <img src={seeMore} alt="" />
+        <img src={seeMore} alt="" loading="lazy" />
       </a>
 
       <img
         src={redSpiky}
         alt=""
+        loading="lazy"
         className="hidden md:inline 
         z-0 md:row-start-1 md:row-end-10 md:col-start-2 md:col-end-4 opacity-70"
       />
       <img
         src={greenStar}
         alt=""
+        loading="lazy"
         className="hidden md:inline 
         z-0 md:row-start-2 md:row-end-10 md:col-start-3 md:col-end-5 opacity-70"
       />
@@ -139,7 +145,7 @@ const Hero = () => {
         
         animate-[wiggleRight_3s_ease-in-out_infinite] hover:scale-105"
       >
-        <img src={heroLink} alt="" />
+        <img src={heroLink} alt="" loading="lazy" />
       </a>
     </div>
   );
