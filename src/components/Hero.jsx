@@ -23,13 +23,11 @@ const Hero = () => {
           src={hero1}
           alt="tokyo background"
           className="md:w-[60%] object-cover brightness-50"
-          loading="lazy"
         />
         <img
           src={hero2}
           alt="shibuya background"
           className="md:w-[40%] object-cover brightness-50 "
-          loading="lazy"
         />
       </div>
       <h2
