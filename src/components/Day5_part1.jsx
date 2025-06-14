@@ -1,8 +1,8 @@
 import React from "react";
-import egg from "../assets/images/day5/day5_egg.svg";
-import meat from "../assets/images/day5/day5_meat.svg";
-import tsukiji from "../assets/images/day5/day5_tsukiji.svg";
-import ginza from "../assets/images/day5/day5_ginza.svg";
+import egg from "../assets/images/day5/day5_egg.png";
+import meat from "../assets/images/day5/day5_meat.png";
+import tsukiji from "../assets/images/day5/day5_tsukiji.png";
+import ginza from "../assets/images/day5/day5_ginza.png";
 
 const Day5_part1 = () => {
   return (

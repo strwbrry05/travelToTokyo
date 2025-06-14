@@ -1,10 +1,10 @@
 import React from "react";
-import muji from "../assets/images/day5/day5_muji.svg";
-import westwood from "../assets/images/day5/day5_westwood.svg";
-import tiger from "../assets/images/day5/day5_tiger.svg";
-import uniqlo from "../assets/images/day5/day5_uniqlo.svg";
-import udon from "../assets/images/day5/day5_udon.svg";
-import person from "../assets/images/day5/day5_person.svg";
+import muji from "../assets/images/day5/day5_muji.png";
+import westwood from "../assets/images/day5/day5_westwood.png";
+import tiger from "../assets/images/day5/day5_tiger.png";
+import uniqlo from "../assets/images/day5/day5_uniqlo.png";
+import udon from "../assets/images/day5/day5_udon.png";
+import person from "../assets/images/day5/day5_person.png";
 
 const Day5_part2 = () => {
   return (
