@@ -1,10 +1,10 @@
 import React from "react";
-import takeshita from "../assets/images/day1/day1_takeshita.svg";
-import crepe from "../assets/images/day1/day1_crepe.svg";
-import crossing from "../assets/images/day1/day1_crossing.svg";
-import udon from "../assets/images/day1/day1_udon.svg";
-import waffle from "../assets/images/day1/day1_waffle.svg";
-import katsudon from "../assets/images/day1/day1_katsudon.svg";
+import takeshita from "../assets/images/day1/day1_takeshita.png";
+import crepe from "../assets/images/day1/day1_crepe.png";
+import crossing from "../assets/images/day1/day1_crossing.png";
+import udon from "../assets/images/day1/day1_udon.png";
+import waffle from "../assets/images/day1/day1_waffle.png";
+import katsudon from "../assets/images/day1/day1_katsudon.png";
 
 const Day1_part2 = () => {
   return (
