@@ -1,8 +1,8 @@
 import React from "react";
-import robot from "../assets/images/day4/day4_robot.svg";
-import people from "../assets/images/day4/day4_people.svg";
-import park from "../assets/images/day4/day4_park.svg";
-import ghibli from "../assets/images/day4/day4_ghibli.svg";
+import robot from "../assets/images/day4/day4_robot.png";
+import people from "../assets/images/day4/day4_people.png";
+import park from "../assets/images/day4/day4_park.png";
+import ghibli from "../assets/images/day4/day4_ghibli.png";
 
 const Day4_part1 = () => {
   return (

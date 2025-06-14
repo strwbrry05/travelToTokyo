@@ -1,14 +1,14 @@
 import React from "react";
-import akihabara from "../assets/images/day4/day4_akihabara.svg";
-import donut from "../assets/images/day4/day4_donut.svg";
-import katsu from "../assets/images/day4/day4_katsu.svg";
+import akihabara from "../assets/images/day4/day4_akihabara.png";
+import donut from "../assets/images/day4/day4_donut.png";
+import katsu from "../assets/images/day4/day4_katsu.png";
 
 const Day4_part2 = () => {
   return (
     <div
       className="grid grid-cols-[repeat(12,minmax(30px,45px))] grid-rows-[repeat(11,minmax(30px,1fr))]
       font-(family-name:--font-text) font-bold 
-      "
+      h"
     >
       <div
         className="row-start-1 row-end-5 col-start-1 col-end-13 text-[0.85rem]

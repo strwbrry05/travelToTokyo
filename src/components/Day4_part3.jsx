@@ -1,8 +1,8 @@
 import React from "react";
-import cake from "../assets/images/day4/day4_cake.svg";
-import store from "../assets/images/day4/day4_store.svg";
-import skytower from "../assets/images/day4/day4_skytower.svg";
-import aquarium from "../assets/images/day4/day4_aquarium.svg";
+import cake from "../assets/images/day4/day4_cake.png";
+import store from "../assets/images/day4/day4_store.png";
+import skytower from "../assets/images/day4/day4_skytower.png";
+import aquarium from "../assets/images/day4/day4_aquarium.png";
 
 const Day4_part3 = () => {
   return (
