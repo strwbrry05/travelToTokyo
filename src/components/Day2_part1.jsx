@@ -1,10 +1,10 @@
 import React from "react";
-import sensoji from "../assets/images/day2/day2_sensoji.svg";
-import sushi from "../assets/images/day2/day2_sushi.svg";
-import person from "../assets/images/day2/day2_mom.svg";
-import curry from "../assets/images/day2/day2_curry.svg";
-import animate from "../assets/images/day2/day2_animate.svg";
-import misojyu from "../assets/images/day2/day2_misojyu.svg";
+import sensoji from "../assets/images/day2/day2_sensoji.png";
+import sushi from "../assets/images/day2/day2_sushi.png";
+import person from "../assets/images/day2/day2_mom.png";
+import curry from "../assets/images/day2/day2_curry.png";
+import animate from "../assets/images/day2/day2_animate.png";
+import misojyu from "../assets/images/day2/day2_misojyu.png";
 
 const Day2_part1 = () => {
   return (

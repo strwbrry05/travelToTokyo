@@ -5,9 +5,8 @@ import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
 
-const Day1_p1 = lazy(() => import("./components/Day1_part1"));
-const Day1_p2 = lazy(() => import("./components/Day1_part2"));
-
+import Day1_part1 from "./components/Day1_part1";
+import Day1_part2 from "./components/Day1_part2";
 import Day2_part1 from "./components/Day2_part1";
 import Day2_part2 from "./components/Day2_part2";
 import Day3_part1 from "./components/Day3_part1";
@@ -28,7 +27,7 @@ function App() {
       </div>
       <Hero />
       <div className="bg-(--color-white) overflow-x-hidden">
-        <Day firstHalf={<Day1_p1 />} secondHalf={<Day1_p2 />} />
+        <Day firstHalf={<Day1_part1 />} secondHalf={<Day1_part2 />} />
         <Day
           firstHalf={<Day2_part1 />}
           leftPercent={60}

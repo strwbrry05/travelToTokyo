@@ -1,9 +1,9 @@
 import React from "react";
-import conbini from "../assets/images/day2/day2_conbini.svg";
-import daifuku from "../assets/images/day2/day2_daifuku.svg";
-import pokemon from "../assets/images/day2/day2_pokemon.svg";
-import aquarium from "../assets/images/day2/day2_aquarium.svg";
-import ikebukuro from "../assets/images/day2/day2_ikebukuro.svg";
+import conbini from "../assets/images/day2/day2_conbini.png";
+import daifuku from "../assets/images/day2/day2_daifuku.png";
+import pokemon from "../assets/images/day2/day2_pokemon.png";
+import aquarium from "../assets/images/day2/day2_aquarium.png";
+import ikebukuro from "../assets/images/day2/day2_ikebukuro.png";
 import "../index.css";
 
 const Day2_part2 = () => {
