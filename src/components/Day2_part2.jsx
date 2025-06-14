@@ -95,7 +95,7 @@ const Day2_part2 = () => {
         className="row-start-8 row-end-12 col-start-2 col-end-12 self-center justify-self-center
         w-[400px]
         sm:w-[475px] lg:mt-[3em] pb-[1em]
-        xl:col-start-1 xl:col-end-13 xl:z-2 xl:justify-self-start"
+        xl:col-start-1 xl:col-end-13 xl:z-2 xl:justify-self-start xl:ml-[2em]"
       />
       <div
         className="row-start-8 row-end-10 col-start-8 col-end-12 self-center

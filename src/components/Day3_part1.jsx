@@ -1,9 +1,9 @@
 import React from "react";
-import national from "../assets/images/day3/day3_TokyoNational.svg";
-import nature from "../assets/images/day3/day3_natureScience.svg";
-import art from "../assets/images/day3/day3_MetropolitanArt.svg";
-import zoo from "../assets/images/day3/day3_UenoZoo.svg";
-import ramen from "../assets/images/day3/day3_ramen.svg";
+import national from "../assets/images/day3/day3_TokyoNational.png";
+import nature from "../assets/images/day3/day3_natureScience.png";
+import art from "../assets/images/day3/day3_MetropolitanArt.png";
+import zoo from "../assets/images/day3/day3_UenoZoo.png";
+import ramen from "../assets/images/day3/day3_ramen.png";
 
 const Day3_part1 = () => {
   return (

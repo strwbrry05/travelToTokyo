@@ -1,8 +1,8 @@
 import React from "react";
-import disney from "../assets/images/day3/day3_disney.svg";
-import people from "../assets/images/day3/day3_people.svg";
-import mochi from "../assets/images/day3/day3_mochi.svg";
-import disneySea from "../assets/images/day3/day3_disneySea.svg";
+import disney from "../assets/images/day3/day3_disney.png";
+import people from "../assets/images/day3/day3_people.png";
+import mochi from "../assets/images/day3/day3_mochi.png";
+import disneySea from "../assets/images/day3/day3_disneySea.png";
 
 const Day3_part2 = () => {
   return (
@@ -68,13 +68,13 @@ const Day3_part2 = () => {
         src={disneySea}
         alt="Tokyo DisneySea"
         className="row-start-8 row-end-11 col-start-2 col-end-12 self-center
-        
+        xl:w-[450px]
         sm:mt-[-3em]"
       />
       <img
         src={people}
         alt=""
-        className="row-start-9 row-end-11 col-start-9 col-end-12 self-center"
+        className="row-start-9 row-end-11 col-start-9 col-end-12 self-center xl:w-[140px]"
       />
       <div
         className="row-start-10 row-end-12 col-start-9 col-end-12 self-center
