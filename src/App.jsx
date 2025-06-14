@@ -28,14 +28,7 @@ function App() {
       </div>
       <Hero />
       <div className="bg-(--color-white) overflow-x-hidden">
-        <Suspense fallback={<div>loading...</div>}>
-          <Day firstHalf={<Day1_p1 />} secondHalf={<Day1_p2 />} />
-        </Suspense>
-
-        <Suspense fallback={<div>loading...</div>}>
-          <Day firstHalf={<Day1_p1 />} secondHalf={<Day1_p2 />} />
-        </Suspense>
-
+        <Day firstHalf={<Day1_p1 />} secondHalf={<Day1_p2 />} />
         <Day
           firstHalf={<Day2_part1 />}
           leftPercent={60}

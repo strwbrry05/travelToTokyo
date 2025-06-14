@@ -1,10 +1,10 @@
 import React from "react";
 import meiji from "../assets/images/day1/day1_meiji.png";
-import donqui from "../assets/images/day1/day1_donqui.webp";
-import records from "../assets/images/day1/day1_records.webp";
+import donqui from "../assets/images/day1/day1_donqui.png";
+import records from "../assets/images/day1/day1_records.png";
 import gacha from "../assets/images/day1/day1_gacha.png";
-import purikura from "../assets/images/day1/day1_purikura.webp";
-import shibuya109 from "../assets/images/day1/day1_109.webp";
+import purikura from "../assets/images/day1/day1_purikura.png";
+import shibuya109 from "../assets/images/day1/day1_109.png";
 
 const Day1_part1 = () => {
   return (
