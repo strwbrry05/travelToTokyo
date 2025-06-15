@@ -12,7 +12,7 @@ const Day2_part1 = () => {
       className="grid grid-cols-[repeat(12,minmax(30px,45px))] grid-rows-[repeat(11,minmax(30px,1fr))]
       xl:grid-rows-[repeat(12,minmax(30px,1fr))]
       font-(family-name:--font-text) font-bold
-      xl:justify-center xl:scale-[1.1]
+      xl:justify-center xl:scale-[1.1] mt-[3em]
       "
     >
       <div

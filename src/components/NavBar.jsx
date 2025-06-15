@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import { IoMenu } from "react-icons/io5";
+import { Link } from "react-scroll";
 import "../index.css";
 
 const NavBar = () => {
@@ -39,7 +40,9 @@ const NavBar = () => {
           className={isRotated ? "nav-rotated" : "nav-not-rotated"}
           onClick={handleClick}
         />
-        <h1>travelToTokyo</h1>
+        <Link to="hero" smooth={true} className="cursor-pointer">
+          <h1>travelToTokyo</h1>
+        </Link>
       </div>
 
       {/* drop down menu */}
@@ -55,9 +58,13 @@ const NavBar = () => {
           <ul
             className={`absolute z-3 bg-(--color-red) w-full p-[1em] text-center shadow-(--my-shadow)`}
           >
-            <a href="" className="relative w-30 m-auto">
-              <li
-                className="mb-[0.75em] 
+            <Link
+              to="day1"
+              smooth={true}
+              activeClass="activeSmall"
+              spy={true}
+              className="cursor-pointer relative w-30 m-auto
+              mb-[0.75em] 
                 inline-block relative
                 after:content-[''] after:w-[100%] after:h-[2px] after:bg-(--color-white)
                 after:absolute after:bottom-0 after:left-0 
@@ -66,14 +73,17 @@ const NavBar = () => {
                 after:scale-x-0
 
                 hover:after:scale-x-100 hover:after:origin-bottom-center"
-              >
-                Day One
-              </li>
-            </a>
-            <a href="" className="block w-30 m-auto">
-              <li
-                className="mb-[0.75em] 
-                inline-block relative
+            >
+              <li>Day One</li>
+            </Link>
+            <Link
+              to="day2"
+              smooth={true}
+              activeClass="activeSmallPlus"
+              spy={true}
+              className="cursor-pointer block w-30 m-auto
+              mb-[0.75em]
+                block relative
                 after:content-[''] after:w-[100%] after:h-[2px] after:bg-(--color-white)
                 after:absolute after:bottom-0 after:left-0 
 
@@ -81,14 +91,17 @@ const NavBar = () => {
                 after:scale-x-0
 
                 hover:after:scale-x-100 hover:after:origin-bottom-center"
-              >
-                Day Two
-              </li>
-            </a>
-            <a href="" className="block w-30 m-auto">
-              <li
-                className="mb-[0.75em] 
-                inline-block relative
+            >
+              <li>Day Two</li>
+            </Link>
+            <Link
+              to="day3"
+              smooth={true}
+              activeClass="activeSmallPlus"
+              spy={true}
+              className="cursor-pointer block w-30 m-auto
+              mb-[0.75em]
+                block relative
                 after:content-[''] after:w-[100%] after:h-[2px] after:bg-(--color-white)
                 after:absolute after:bottom-0 after:left-0 
 
@@ -96,14 +109,17 @@ const NavBar = () => {
                 after:scale-x-0
 
                 hover:after:scale-x-100 hover:after:origin-bottom-center"
-              >
-                Day Three
-              </li>
-            </a>
-            <a href="" className="block w-30 m-auto">
-              <li
-                className="mb-[0.75em] 
-                inline-block relative
+            >
+              <li>Day Three</li>
+            </Link>
+            <Link
+              to="day4"
+              smooth={true}
+              activeClass="activeSmallPlus"
+              spy={true}
+              className="cursor-pointer block w-30 m-auto
+              mb-[0.75em]
+                block relative
                 after:content-[''] after:w-[100%] after:h-[2px] after:bg-(--color-white)
                 after:absolute after:bottom-0 after:left-0 
 
@@ -111,14 +127,17 @@ const NavBar = () => {
                 after:scale-x-0
 
                 hover:after:scale-x-100 hover:after:origin-bottom-center"
-              >
-                Day Four
-              </li>
-            </a>
-            <a href="" className="block w-30 m-auto">
-              <li
-                className=" 
-                inline-block relative
+            >
+              <li>Day Four</li>
+            </Link>
+            <Link
+              to="day5"
+              smooth={true}
+              activeClass="activeSmallPlus"
+              spy={true}
+              className="cursor-pointer block w-30 m-auto
+              mb-[0.75em]
+                block relative
                 after:content-[''] after:w-[100%] after:h-[2px] after:bg-(--color-white)
                 after:absolute after:bottom-0 after:left-0 
 
@@ -126,10 +145,9 @@ const NavBar = () => {
                 after:scale-x-0
 
                 hover:after:scale-x-100 hover:after:origin-bottom-center"
-              >
-                Day Five
-              </li>
-            </a>
+            >
+              <li>Day Five</li>
+            </Link>
           </ul>
         )}
       </div>
@@ -140,81 +158,77 @@ const NavBar = () => {
         pl-[5em] pr-[5em] pt-[0.5em] pb-[0.5em]
         xl:pl-[10em] xl:pr-[10em]"
       >
-        <a href="">
-          <li
-            className=" 
-                inline-block relative
-                after:content-[''] after:w-[100%] after:h-[2px] after:bg-(--color-white)
-                after:absolute after:bottom-0 after:left-0 
-
-                after:origin-bottom-center after:transition-transform after:duration-300 after:ease-in-out
-                after:scale-x-0
-
-                hover:after:scale-x-100 hover:after:origin-bottom-center"
-          >
-            Day One
-          </li>
-        </a>
-        <a href="">
-          <li
-            className=" 
-                inline-block relative
-                after:content-[''] after:w-[100%] after:h-[2px] after:bg-(--color-white)
-                after:absolute after:bottom-0 after:left-0 
-
-                after:origin-bottom-center after:transition-transform after:duration-300 after:ease-in-out
-                after:scale-x-0
-
-                hover:after:scale-x-100 hover:after:origin-bottom-center"
-          >
-            Day Two
-          </li>
-        </a>
-        <a href="">
-          <li
-            className=" 
-                inline-block relative
-                after:content-[''] after:w-[100%] after:h-[2px] after:bg-(--color-white)
-                after:absolute after:bottom-0 after:left-0 
-
-                after:origin-bottom-center after:transition-transform after:duration-300 after:ease-in-out
-                after:scale-x-0
-
-                hover:after:scale-x-100 hover:after:origin-bottom-center"
-          >
-            Day Three
-          </li>
-        </a>
-        <a href="">
-          <li
-            className=" 
-                inline-block relative
-                after:content-[''] after:w-[100%] after:h-[2px] after:bg-(--color-white)
-                after:absolute after:bottom-0 after:left-0 
-
-                after:origin-bottom-center after:transition-transform after:duration-300 after:ease-in-out
-                after:scale-x-0
-
-                hover:after:scale-x-100 hover:after:origin-bottom-center"
-          >
-            Day Four
-          </li>
-        </a>
-        <a href="">
-          <li
-            className=" 
-                inline-block relative
-                after:content-[''] after:w-[100%] after:h-[2px] after:bg-(--color-white)
-                after:absolute after:bottom-0 after:left-0 
-
-                after:origin-bottom-center after:transition-transform after:duration-300 after:ease-in-out
-                after:scale-x-0
-
-                hover:after:scale-x-100 hover:after:origin-bottom-center"
-          >
-            Day Five
-          </li>
-        </a>
+        <Link
+          to="day1"
+          smooth={true}
+          activeClass="active"
+          spy={true}
+          className="cursor-pointer inline-block relative after:content-['']
+          after:w-[100%] after:h-[2px] after:bg-(--color-white)
+          after:absolute after:bottom-0 after:left-0 
+          
+          after:origin-bottom-center after:transition-transform after:duration-300 after:ease-in-out
+          after:scale-x-0 hover:after:scale-x-100 hover:after:origin-bottom-center"
+        >
+          <li>Day One</li>
+        </Link>
+        <Link
+          to="day2"
+          smooth={true}
+          activeClass="active"
+          offset={10}
+          spy={true}
+          className="cursor-pointer inline-block relative after:content-['']
+          after:w-[100%] after:h-[2px] after:bg-(--color-white)
+          after:absolute after:bottom-0 after:left-0 
+          
+          after:origin-bottom-center after:transition-transform after:duration-300 after:ease-in-out
+          after:scale-x-0 hover:after:scale-x-100 hover:after:origin-bottom-center"
+        >
+          <li>Day Two</li>
+        </Link>
+        <Link
+          to="day3"
+          smooth={true}
+          activeClass="active"
+          spy={true}
+          className="cursor-pointer inline-block relative after:content-['']
+          after:w-[100%] after:h-[2px] after:bg-(--color-white)
+          after:absolute after:bottom-0 after:left-0 
+          
+          after:origin-bottom-center after:transition-transform after:duration-300 after:ease-in-out
+          after:scale-x-0 hover:after:scale-x-100 hover:after:origin-bottom-center"
+        >
+          <li>Day Three</li>
+        </Link>
+        <Link
+          to="day4"
+          smooth={true}
+          activeClass="active"
+          spy={true}
+          className="cursor-pointer inline-block relative after:content-['']
+          after:w-[100%] after:h-[2px] after:bg-(--color-white)
+          after:absolute after:bottom-0 after:left-0 
+          
+          after:origin-bottom-center after:transition-transform after:duration-300 after:ease-in-out
+          after:scale-x-0 hover:after:scale-x-100 hover:after:origin-bottom-center"
+        >
+          <li>Day Four</li>
+        </Link>
+        <Link
+          to="day5"
+          smooth={true}
+          activeClass="active"
+          spy={true}
+          className="cursor-pointer inline-block relative after:content-['']
+          after:w-[100%] after:h-[2px] after:bg-(--color-white)
+          after:absolute after:bottom-0 after:left-0 
+          
+          after:origin-bottom-center after:transition-transform after:duration-300 after:ease-in-out
+          after:scale-x-0 hover:after:scale-x-100 hover:after:origin-bottom-center"
+        >
+          <li>Day Five</li>
+        </Link>
       </ul>
     </div>
   );

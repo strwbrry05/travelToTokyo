@@ -7,6 +7,7 @@ import seeMore from "../assets/images/hero_seeMore.svg";
 import redSpiky from "../assets/images/red-spiky-star.svg";
 import greenStar from "../assets/images/green-star.svg";
 import heroLink from "../assets/images/hero_spiky_sticker.svg";
+import { Link } from "react-scroll";
 
 const Hero = () => {
   return (
@@ -107,9 +108,11 @@ const Hero = () => {
         />
       </div>
 
-      <a
-        href=""
-        className="z-1 row-start-11 row-end-13 col-start-3 col-end-5 self-end justify-self-center
+      <Link
+        to="day1"
+        smooth={true}
+        spy={true}
+        className="cursor-pointer z-1 row-start-11 row-end-13 col-start-3 col-end-5 self-end justify-self-center
         sm:w-[130px] lg:w-[150px]
         md:row-start-10 md:row-end-13 md:col-start-6 md:col-end-8
 
@@ -117,7 +120,7 @@ const Hero = () => {
         "
       >
         <img src={seeMore} alt="" />
-      </a>
+      </Link>
 
       <img
         src={redSpiky}

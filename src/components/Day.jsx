@@ -4,7 +4,7 @@ const Day = (props) => {
   return (
     <div
       className="flex flex-col lg:flex-row items-center
-    bg-(--color-white) p-[1em] xl:w-[1150px] mx-auto pt-[5em]"
+    bg-(--color-white) p-[1em] xl:w-[1150px] mx-auto pt-[5em] mt-[2.5em]"
     >
       <div
         className={`mx-auto ${
