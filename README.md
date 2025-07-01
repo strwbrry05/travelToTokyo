@@ -1,6 +1,6 @@
-# React + Vite
+# Tokyo (5 Day) Itinerary
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Static website containing 5 full days of activities. Fully responsive. Connected with the Google Maps API.
 
 Currently, two official plugins are available:
 
