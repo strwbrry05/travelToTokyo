@@ -5,7 +5,7 @@
 
 
 ## About the Project
-
+Inspired by my two trips to Tokyo, I knew I wanted to create a page like this for months. Im not a person who typically likes to travel, but ever since I was in middle school I had always wanted to go to Japan. Finally having the chance to do that post graduation was a dream come true. When designing the page, I wanted something original and fun, something that meant I stayed true to my wacky mind, but also incorportated everything I had been learning about web development. I found some images of old japanese magazines on pinterest and I knew exactly then that that was the aesthetic I wanted for this page.
 
 ### Nav + Footer
 Nav bar is simple, only displaying the itinerary days while all together ommiting any other sections. This was purposeful since the focus is on the itinerary and not on anything else. Allowing the user ease of access to the important sections.
@@ -56,6 +56,16 @@ Designed desktop first, developed mobile first. Page is responsive to multiple s
 </span>
 
 ## Potential Improvements
+- HERO: While visually, the hero looks exactly like I wanted it to. On occasion it makes the entire page load slowly. I would find a way to create a more efficient hero by minimizing the amount of behind the scenes work the page has to do.
+
+
+- ITINERARY: Developmentally, everything is up to my ideals. Stylistically, I would have liked to have added more images and text. Created a real chaotic looking itinerary that somehow works against all odds.
+
+
+- MAP: Only critique I have for the map was that I wasn't able to create and drop multiple pins. At the time, I was only able to figure out how to add one pin to the map. Ideally, I would have had a pin for each place/location I mentioned through the course of the five itienrary days. Here, the users would have been able to see all the locations for themselves.
+
+
+- FAQ: Would have been nice to have added more questions/answers to the page.
 
 ## Built Using
 - HTML
